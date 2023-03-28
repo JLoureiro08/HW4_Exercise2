@@ -7,6 +7,11 @@ private const val TAG = "QuizViewModel"
 
 class QuizViewModel: ViewModel() {
 
+    var scoreTeamA = 0
+    var scoreTeamB = 0
+
+
+
     /*init{
         Log.d(TAG, "ViewModel instance created")
     }
@@ -16,10 +21,10 @@ class QuizViewModel: ViewModel() {
         Log.d(TAG, "ViewModel instance about to be destroyed")
     }*/
 
-    private lateinit var binding: ActivityMainBinding
+   /* private lateinit var binding: ActivityMainBinding
 
 
-    val score: Int = 0
+    var score: Int = 0
     var scoreTeamA = 0
     var scoreTeamB = 0
 
@@ -51,7 +56,7 @@ class QuizViewModel: ViewModel() {
     fun resetScore() {
         scoreTeamA = 0
         scoreTeamB = 0
-    }
+    }*/
 
     /*fun teamAScore() {
         val scoreView = binding.teamAScore
